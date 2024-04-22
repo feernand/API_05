@@ -1,0 +1,113 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "node_api",
+    "collectionId": "1ca52e6a-a946-4edc-accb-b813fa027b67",
+    "dateExported": "2024-04-22T18:22:13.269Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "3448b808-6dcc-44bc-9581-e4a0611b3bd6",
+            "colId": "1ca52e6a-a946-4edc-accb-b813fa027b67",
+            "containerId": "",
+            "name": "teste atualizar task",
+            "url": "http://localhost:3000/tasks/30/update",
+            "method": "PUT",
+            "sortNum": 10000,
+            "created": "2024-04-22T17:21:52.286Z",
+            "modified": "2024-04-22T17:57:46.177Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"task\":\"Atualizando a task 3\",\n  \"status\":\"Atualizado\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "e214f3eb-8238-4b93-9781-c2761a0fa957",
+            "colId": "1ca52e6a-a946-4edc-accb-b813fa027b67",
+            "containerId": "",
+            "name": "teste de todas as task",
+            "url": "http://localhost:3000/tasks",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-04-22T18:07:04.181Z",
+            "modified": "2024-04-22T18:07:44.740Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"task\":\"Atualizando a task 3\",\n  \"status\":\"Atualizado\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "180589d5-4e8f-4336-90e9-25413024cde2",
+            "colId": "1ca52e6a-a946-4edc-accb-b813fa027b67",
+            "containerId": "",
+            "name": "teste atualizar da task",
+            "url": "http://localhost:3000/tasks/54/status/atualizado",
+            "method": "PUT",
+            "sortNum": 30000,
+            "created": "2024-04-22T18:07:55.685Z",
+            "modified": "2024-04-22T18:10:35.911Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"task\":\"Atualizando a task 3\",\n  \"status\":\"Atualizado\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "4e883570-e813-440d-a07e-971b0db154b3",
+            "colId": "1ca52e6a-a946-4edc-accb-b813fa027b67",
+            "containerId": "",
+            "name": "teste deletar task",
+            "url": "http://localhost:3000/tasks/48/delete",
+            "method": "DELETE",
+            "sortNum": 40000,
+            "created": "2024-04-22T18:10:44.301Z",
+            "modified": "2024-04-22T18:12:07.054Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"task\":\"Atualizando a task 3\",\n  \"status\":\"Atualizado\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "1d57daa0-b9e8-4fdd-932a-9b70c8701af8",
+            "colId": "1ca52e6a-a946-4edc-accb-b813fa027b67",
+            "containerId": "",
+            "name": "teste inserir task",
+            "url": "http://localhost:3000/tasks/40/update",
+            "method": "PUT",
+            "sortNum": 50000,
+            "created": "2024-04-22T18:12:13.309Z",
+            "modified": "2024-04-22T18:15:50.177Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"task\":\"VAI TOMA NO CU PIRANHAAAAAAAAAAAAAAAAAAAAA\",\n    \"status\":\"em andamento\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "57c559b6-f3c0-44dc-b34b-7b01ca9767da",
+            "colId": "1ca52e6a-a946-4edc-accb-b813fa027b67",
+            "containerId": "",
+            "name": "teste atualização de task",
+            "url": "http://localhost:3000/tasks/create",
+            "method": "POST",
+            "sortNum": 60000,
+            "created": "2024-04-22T18:14:36.333Z",
+            "modified": "2024-04-22T18:14:36.333Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"task\":\"CADE MEU DINHEIRO\",\n    \"status\":\"em andamento\"\n}",
+                "form": []
+            }
+        }
+    ],
+    "ref": "c9bw9w52lZ9HUbJ2D9Yr7V7c8nOaC6Fk-f3MRDmxEPaO7dGdy4dwazF51o7ifI91W8fahLdoxCl82EztEh1RHw"
+}
